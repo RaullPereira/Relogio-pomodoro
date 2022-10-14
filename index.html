@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
-    rel="stylesheet"/>
     <title>Pomodoro Timer</title>
     
   </head>
@@ -20,25 +18,15 @@
           <p id="work">TRABALHANDO</p>
           <p id="break">DESCANSO</p>
         </div>
+      
 
-<link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
-<div class="player-ctrl">
-
-  <!-- Play Button -->
-  <a id="podcast-play" onclick="playShow()"><i class="ion-ios-play"></i></a>
-
-  <!-- Pause Button -->
-  <a id="podcast-pause" onclick="pauseShow()" style="display:none;"><i class="ion-ios-pause"></i></a>
-  <h1></h1>
-</div>
-
-<!-- Audio player -->
-<audio id="podcast-audio">
-    <source  src="./lofi/kkkkkkkk.mp3" type="audio/mp4">
-    <source src="./lofi/lofi.mp3" type="audio/mp4">
-</audio>
+        <!--WIDGET PLAYER API SOUNDCLOUD-->
+        <div class="player">
+        <iframe width="60%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1362802768%3Fsecret_token%3Ds-zTlDOoMetHM&color=%236f00ff&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe><a href="https://soundcloud.com/raul-pereira-745547660/lofi/s-zTlDOoMetHM"></a>
+        </div>
 
 
+        <!--CONTEUDO-->
         <div class="timer">
           <div class="circle">
             <div class="time">
@@ -48,14 +36,15 @@
             </div>
           </div>
         </div>
+
+        <!--CONTROLE COMEÇAR E PAUSAR TEMPO-->
         <div class="controls">
           <button id="start" onclick="start()">
             <i class="fa-solid fa-play"></i>
+            <p>Comece</p>
           </button>
-
-          <a id="reset" href="./"
-            ><i class="fa-solid fa-arrow-rotate-left"></i
-          ></a>
+          <a id="reset" href="./"><i class="fa-solid fa-arrow-rotate-left">
+            <p class="text-p">Pausar</p></i></a>
         </div>
       </div>
     </section>
