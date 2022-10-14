@@ -78,6 +78,10 @@ section {
     border-radius: 10rem;
 }
 
+.controls p {
+    padding-right: 0.2rem;
+}
+
 .button {
     cursor: pointer;
     color: aliceblue;
