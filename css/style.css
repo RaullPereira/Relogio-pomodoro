@@ -102,7 +102,7 @@ section {
 
 .painel p.active {
     opacity: 1;
-    color: #6f00ffc2;
+    color: #00a6ff;
 }
 
 .timer {
@@ -122,7 +122,7 @@ section {
     width: 26rem;
     height: 26rem;
     border-radius: 50%;
-    background-color: #6f00ffc2;
+    background-color: #00a6ff;
     position: relative;
 }
 
